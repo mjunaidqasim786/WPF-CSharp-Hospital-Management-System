@@ -1,0 +1,2 @@
+..\\Hospital Management System\\bin\\Debug\\Hospital Management System.exe.config
+..\\Hospital Management System\\bin\\Debug\\Hospital Management System.exe

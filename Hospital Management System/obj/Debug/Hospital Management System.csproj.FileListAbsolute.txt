@@ -1,0 +1,36 @@
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\bin\Debug\Hospital Management System.exe.config
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\bin\Debug\Hospital Management System.exe
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\bin\Debug\Hospital Management System.pdb
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital Management System.csproj.AssemblyReference.cache
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.Department.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.Doctors.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.Login.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.MainMenu.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.PatDischarge.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.PatientCheckUp.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.PatientEntry.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.Properties.Resources.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.registerform.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.RoomsInfo.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital Management System.csproj.GenerateResource.cache
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital Management System.csproj.CoreCompileInputs.cache
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital Management System.exe
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital Management System.pdb
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.Splashscreen.resources
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management System\obj\Debug\Hospital_Management_System.search.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital Management System.csproj.AssemblyReference.cache
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital Management System.csproj.SuggestedBindingRedirects.cache
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.Department.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.Doctors.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.Login.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.MainMenu.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.PatDischarge.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.PatientCheckUp.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.PatientEntry.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.registerform.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.RoomsInfo.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.Splashscreen.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital_Management_System.search.resources
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital Management System.csproj.GenerateResource.cache
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital Management System.exe
+E:\Coding Studies\Hospital Management System new\Hospital Management System\obj\Debug\Hospital Management System.pdb

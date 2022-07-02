@@ -1,0 +1,2 @@
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management Setup\bin\Debug\Hospital_Management_Setup.msi
+C:\Users\Junaid Qasim\source\repos\Hospital Management System\Hospital Management Setup\bin\Debug\Hospital_Management_Setup.wixpdb

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F914BC2C-F20B-4716-93C6-B382940E0682}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hospital_Management_System</RootNamespace>
+    <AssemblyName>Hospital Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Databaseusual.cs" />
+    <Compile Include="Department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Department.designer.cs">
+      <DependentUpon>Department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctors.designer.cs">
+      <DependentUpon>Doctors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatDischarge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatDischarge.designer.cs">
+      <DependentUpon>PatDischarge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientCheckUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientCheckUp.designer.cs">
+      <DependentUpon>PatientCheckUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientEntry.designer.cs">
+      <DependentUpon>PatientEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResigterAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResigterAccount.designer.cs">
+      <DependentUpon>ResigterAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomsInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomsInfo.designer.cs">
+      <DependentUpon>RoomsInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splashscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashscreen.Designer.cs">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Department.resx">
+      <DependentUpon>Department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctors.resx">
+      <DependentUpon>Doctors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatDischarge.resx">
+      <DependentUpon>PatDischarge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientCheckUp.resx">
+      <DependentUpon>PatientCheckUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientEntry.resx">
+      <DependentUpon>PatientEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResigterAccount.resx">
+      <DependentUpon>ResigterAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomsInfo.resx">
+      <DependentUpon>RoomsInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashscreen.resx">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\08-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hms2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %28staff%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\08-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient_cards-2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form-icon-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chob.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-01-17 194025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\castio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\hospital-managesoftware-500x500.jpg" />
+    <None Include="Resources\imagesjjjfff %283%291.jpeg" />
+    <None Include="Resources\268071.jpg" />
+    <None Include="Resources\xvfc2.jpg" />
+    <None Include="Resources\26807.jpg" />
+    <None Include="Resources\xvfc1.jpg" />
+    <None Include="Resources\imakkk%29.jpeg" />
+    <None Include="Resources\101301.jpg" />
+    <None Include="Resources\v870-mynt-06.jpg" />
+    <None Include="Resources\xvfc.jpg" />
+    <None Include="Resources\imagesjjjfff %283%29.jpeg" />
+    <None Include="Resources\imagejjjjjjs %283%29.jpeg" />
+    <None Include="Resources\10130.jpg" />
+    <None Include="Resources\v870-tang-36.jpg" />
+    <None Include="Resources\fffffff.jpg" />
+    <None Include="Resources\fdsgdfssdfsdfsdf1.jpg" />
+    <None Include="Resources\fdsgdfssdfsdfsdf.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
